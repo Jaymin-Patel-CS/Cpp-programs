@@ -5,7 +5,7 @@ My learning journey in C++, transitioning from C to master Object-Oriented Progr
 ## 📌 Topics Covered
 - [x] Variables, Data Types & `sizeof()`
 - [x] Control Flow & Loops
-- [ ] Functions & References
+- [x] Functions & References
 - [ ] OOP (Classes, Objects, Inheritance)
 - [ ] STL (Vectors, Maps, Sets)
 
