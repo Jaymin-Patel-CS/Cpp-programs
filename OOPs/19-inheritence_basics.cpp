@@ -22,7 +22,7 @@ class employee
 };
 
 // derived class from employee
-class programmer : employee
+class programmer : /*{{ here we have to define public or private inheritance}}*/ employee
 {
     int languagecode;
     public:
