@@ -16,9 +16,9 @@ class content
             title = s;
             rating = r;
         }
-        virtual void display() {
-            cout<<"Base class display."<<endl;
-        }
+        virtual void display() = 0; // after this type of declaration this virtual function is called pure virtual function,
+        // because here we have defined this is do nothing function and you must make display function in the derived classes otherwise error.
+        // and the class which includes atleast one virtual function is called ABSTRACT BASE CLASS.
 };
 
 class video : public content
